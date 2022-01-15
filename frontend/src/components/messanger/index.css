@@ -1,0 +1,13 @@
+.area {
+  
+  background-color: rgb(236, 236, 236);
+  
+  height: 88%;
+  overflow-y: auto;
+}
+.messes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+	min-height: 100%;
+}

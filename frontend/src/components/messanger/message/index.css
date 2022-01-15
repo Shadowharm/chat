@@ -1,0 +1,28 @@
+.mess {
+  display: flex;
+  color: rgb(221, 221, 221);
+  margin-bottom: 5px;
+  width: 100%;
+}
+.s1 {
+  background-color: rgb(82, 82, 255);
+
+  justify-content: flex-end;
+}
+.s2{
+  background-color: rgb(174, 105, 238);
+  justify-content: flex-start;
+}
+.content {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* float: right; */
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.text {
+  word-break: break-all;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,20 @@
+.app{
+    width: 60vw;
+    height: 93vh;
+    background-color: rgb(175, 175, 255);
+    border: 10px solid blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.wrap{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
